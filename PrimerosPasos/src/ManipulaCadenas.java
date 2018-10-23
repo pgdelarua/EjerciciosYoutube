@@ -1,7 +1,10 @@
+import java.util.Scanner;
+import javax.swing.*;
 
 public class ManipulaCadenas {
 	public static void main (String[] args) {
-	String nombre="Sara García de la Rúa";
+	String nombre;
+	nombre=JOptionPane.showInputDialog("Introduce tu nombre, por favor:");
 	System.out.println("Mi nombre es " + nombre);
 	System.out.println("Mi nombre tiene " + nombre.length() + " letras.");
 	System.out.println("La primera letra del nombre " + nombre + " es la " + nombre.charAt(0));
